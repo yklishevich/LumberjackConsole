@@ -1,0 +1,401 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A3D908FA237B240F0043E820 /* LumberjackConsole.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A3D908F1237B240F0043E820 /* LumberjackConsole.storyboard */; };
+		A3D908FB237B240F0043E820 /* PTEAdjustLevelsTableView.h in Headers */ = {isa = PBXBuildFile; fileRef = A3D908F2237B240F0043E820 /* PTEAdjustLevelsTableView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A3D908FC237B240F0043E820 /* PTEAdjustLevelsTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = A3D908F3237B240F0043E820 /* PTEAdjustLevelsTableView.m */; };
+		A3D908FD237B240F0043E820 /* PTEConsoleLogger.h in Headers */ = {isa = PBXBuildFile; fileRef = A3D908F4237B240F0043E820 /* PTEConsoleLogger.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A3D908FE237B240F0043E820 /* PTEConsoleLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = A3D908F5237B240F0043E820 /* PTEConsoleLogger.m */; };
+		A3D908FF237B240F0043E820 /* PTEConsoleTableView.h in Headers */ = {isa = PBXBuildFile; fileRef = A3D908F6237B240F0043E820 /* PTEConsoleTableView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A3D90900237B240F0043E820 /* PTEConsoleTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = A3D908F7237B240F0043E820 /* PTEConsoleTableView.m */; };
+		A3D90901237B240F0043E820 /* PTEDashboard.h in Headers */ = {isa = PBXBuildFile; fileRef = A3D908F8237B240F0043E820 /* PTEDashboard.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A3D90902237B240F0043E820 /* PTEDashboard.m in Sources */ = {isa = PBXBuildFile; fileRef = A3D908F9237B240F0043E820 /* PTEDashboard.m */; };
+		A3D90908237B25250043E820 /* CocoaLumberjack.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A3D90905237B24310043E820 /* CocoaLumberjack.framework */; };
+		A3D90909237B25250043E820 /* CocoaLumberjack.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = A3D90905237B24310043E820 /* CocoaLumberjack.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		A3D9090A237B25250043E820 /* NBUCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A3D90904237B24310043E820 /* NBUCore.framework */; };
+		A3D9090B237B25250043E820 /* NBUCore.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = A3D90904237B24310043E820 /* NBUCore.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		A3D9090C237B25250043E820 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				A3D90909237B25250043E820 /* CocoaLumberjack.framework in Embed Frameworks */,
+				A3D9090B237B25250043E820 /* NBUCore.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		A3D908E5237B23F70043E820 /* LumberjackConsole.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = LumberjackConsole.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A3D908E9237B23F70043E820 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A3D908F1237B240F0043E820 /* LumberjackConsole.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LumberjackConsole.storyboard; sourceTree = "<group>"; };
+		A3D908F2237B240F0043E820 /* PTEAdjustLevelsTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PTEAdjustLevelsTableView.h; sourceTree = "<group>"; };
+		A3D908F3237B240F0043E820 /* PTEAdjustLevelsTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PTEAdjustLevelsTableView.m; sourceTree = "<group>"; };
+		A3D908F4237B240F0043E820 /* PTEConsoleLogger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PTEConsoleLogger.h; sourceTree = "<group>"; };
+		A3D908F5237B240F0043E820 /* PTEConsoleLogger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PTEConsoleLogger.m; sourceTree = "<group>"; };
+		A3D908F6237B240F0043E820 /* PTEConsoleTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PTEConsoleTableView.h; sourceTree = "<group>"; };
+		A3D908F7237B240F0043E820 /* PTEConsoleTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PTEConsoleTableView.m; sourceTree = "<group>"; };
+		A3D908F8237B240F0043E820 /* PTEDashboard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PTEDashboard.h; sourceTree = "<group>"; };
+		A3D908F9237B240F0043E820 /* PTEDashboard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PTEDashboard.m; sourceTree = "<group>"; };
+		A3D90904237B24310043E820 /* NBUCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = NBUCore.framework; path = ../Carthage/Build/iOS/NBUCore.framework; sourceTree = "<group>"; };
+		A3D90905237B24310043E820 /* CocoaLumberjack.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CocoaLumberjack.framework; path = ../Carthage/Build/iOS/CocoaLumberjack.framework; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A3D908E2237B23F70043E820 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A3D90908237B25250043E820 /* CocoaLumberjack.framework in Frameworks */,
+				A3D9090A237B25250043E820 /* NBUCore.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A3D908DB237B23F70043E820 = {
+			isa = PBXGroup;
+			children = (
+				A3D908F0237B240F0043E820 /* Source */,
+				A3D908E7237B23F70043E820 /* LumberjackConsole */,
+				A3D908E6237B23F70043E820 /* Products */,
+				A3D90903237B24310043E820 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		A3D908E6237B23F70043E820 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A3D908E5237B23F70043E820 /* LumberjackConsole.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A3D908E7237B23F70043E820 /* LumberjackConsole */ = {
+			isa = PBXGroup;
+			children = (
+				A3D908E9237B23F70043E820 /* Info.plist */,
+			);
+			path = LumberjackConsole;
+			sourceTree = "<group>";
+		};
+		A3D908F0237B240F0043E820 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				A3D908F1237B240F0043E820 /* LumberjackConsole.storyboard */,
+				A3D908F2237B240F0043E820 /* PTEAdjustLevelsTableView.h */,
+				A3D908F3237B240F0043E820 /* PTEAdjustLevelsTableView.m */,
+				A3D908F4237B240F0043E820 /* PTEConsoleLogger.h */,
+				A3D908F5237B240F0043E820 /* PTEConsoleLogger.m */,
+				A3D908F6237B240F0043E820 /* PTEConsoleTableView.h */,
+				A3D908F7237B240F0043E820 /* PTEConsoleTableView.m */,
+				A3D908F8237B240F0043E820 /* PTEDashboard.h */,
+				A3D908F9237B240F0043E820 /* PTEDashboard.m */,
+			);
+			name = Source;
+			path = ../Source;
+			sourceTree = "<group>";
+		};
+		A3D90903237B24310043E820 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A3D90905237B24310043E820 /* CocoaLumberjack.framework */,
+				A3D90904237B24310043E820 /* NBUCore.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		A3D908E0237B23F70043E820 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A3D908FD237B240F0043E820 /* PTEConsoleLogger.h in Headers */,
+				A3D90901237B240F0043E820 /* PTEDashboard.h in Headers */,
+				A3D908FB237B240F0043E820 /* PTEAdjustLevelsTableView.h in Headers */,
+				A3D908FF237B240F0043E820 /* PTEConsoleTableView.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		A3D908E4237B23F70043E820 /* LumberjackConsole */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A3D908ED237B23F70043E820 /* Build configuration list for PBXNativeTarget "LumberjackConsole" */;
+			buildPhases = (
+				A3D908E0237B23F70043E820 /* Headers */,
+				A3D908E1237B23F70043E820 /* Sources */,
+				A3D908E2237B23F70043E820 /* Frameworks */,
+				A3D908E3237B23F70043E820 /* Resources */,
+				A3D9090C237B25250043E820 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LumberjackConsole;
+			productName = LumberjackConsole;
+			productReference = A3D908E5237B23F70043E820 /* LumberjackConsole.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A3D908DC237B23F70043E820 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1120;
+				ORGANIZATIONNAME = "Eugene Klishevich";
+				TargetAttributes = {
+					A3D908E4237B23F70043E820 = {
+						CreatedOnToolsVersion = 11.2.1;
+					};
+				};
+			};
+			buildConfigurationList = A3D908DF237B23F70043E820 /* Build configuration list for PBXProject "LumberjackConsole" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A3D908DB237B23F70043E820;
+			productRefGroup = A3D908E6237B23F70043E820 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A3D908E4237B23F70043E820 /* LumberjackConsole */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A3D908E3237B23F70043E820 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A3D908FA237B240F0043E820 /* LumberjackConsole.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A3D908E1237B23F70043E820 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A3D908FC237B240F0043E820 /* PTEAdjustLevelsTableView.m in Sources */,
+				A3D908FE237B240F0043E820 /* PTEConsoleLogger.m in Sources */,
+				A3D90902237B240F0043E820 /* PTEDashboard.m in Sources */,
+				A3D90900237B240F0043E820 /* PTEConsoleTableView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		A3D908EB237B23F70043E820 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		A3D908EC237B23F70043E820 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		A3D908EE237B23F70043E820 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = "$(PROJECT_DIR)/../Carthage/Build/iOS";
+				INFOPLIST_FILE = LumberjackConsole/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.eklishevich.LumberjackConsole;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A3D908EF237B23F70043E820 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = "$(PROJECT_DIR)/../Carthage/Build/iOS";
+				INFOPLIST_FILE = LumberjackConsole/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.eklishevich.LumberjackConsole;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A3D908DF237B23F70043E820 /* Build configuration list for PBXProject "LumberjackConsole" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A3D908EB237B23F70043E820 /* Debug */,
+				A3D908EC237B23F70043E820 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A3D908ED237B23F70043E820 /* Build configuration list for PBXNativeTarget "LumberjackConsole" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A3D908EE237B23F70043E820 /* Debug */,
+				A3D908EF237B23F70043E820 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A3D908DC237B23F70043E820 /* Project object */;
+}

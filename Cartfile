@@ -1,0 +1,5 @@
+
+github "CocoaLumberjack/CocoaLumberjack" >= 3.0
+
+#Carthage support for "CyberAgent/iOS-NBUCore" was added manually
+github "yklishevich/iOS-NBUCore" "716eb6c48e7a18bc3bf541a075dd5da4f9f3614a" # >= 2.1.0

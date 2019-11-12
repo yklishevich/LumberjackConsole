@@ -18,6 +18,7 @@
 //  limitations under the License.
 //
 
+#import "UIKit/UIKit.h"
 #import <CocoaLumberjack/CocoaLumberjack.h>
 
 @class PTEConsoleTableView;
